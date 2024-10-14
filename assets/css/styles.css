@@ -1,6 +1,6 @@
 html, body {
     font-size: 16px;
-    color: #000000; /* Text color set to black */
+    color: #ffffff; /* Text color set to white */
     background-color: #EDDFE0;
 }
 
@@ -39,7 +39,7 @@ section {
 }
 
 a.nav-item {
-    color: #000000; /* Changed nav-item text color to black */
+    color: #ffffff; /* Changed nav-item text color to white */
 }
 
 a.nav-item:hover {
@@ -77,7 +77,7 @@ a.nav-item:hover {
 }
 
 .title {
-    color: #fff;
+    color: #fff; /* Keep title color as white */
     text-align: left;
     margin-bottom: 2rem;
 }
