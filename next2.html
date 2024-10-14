@@ -4,11 +4,33 @@
     <title>Next Page</title>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add styles for the image grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 10px; /* space between images */
+            padding: 20px;
+        }
+
+        .image-grid img {
+            width: 100%; /* Make images responsive */
+            height: 150px; /* Set a fixed height for uniformity */
+            object-fit: cover; /* Ensure images cover their area without distortion */
+        }
+    </style>
 </head>
 <body>
     <div class="container has-text-centered">
         <h1>This is the 2nd page</h1>
         <button onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+    <div class="image-grid">
+        <img src="assets/img/1.png" alt="Image 1">
+        <img src="assets/img/2.png" alt="Image 2">
+        <img src="assets/img/3.png" alt="Image 3">
+        <img src="assets/img/4.png" alt="Image 4">
     </div>
 </body>
 </html>
