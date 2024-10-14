@@ -17,18 +17,22 @@ section {
 	padding-bottom: 3rem;
 }
 
+/* About Me Section */
 .section-1 {
 	background-color: #EDDFE0; /* Light beige */
 }
 
+/* Skills Section */
 .section-2 {
 	background-color: #F5F5F7; /* Very light gray */
 }
 
+/* Projects Section */
 .section-3 {
 	background-color: #B7B7B7; /* Gray */
 }
 
+/* Socials Section */
 .section-4 {
 	background-color: #705C53; /* Brown */
 	padding: 0.2rem;
