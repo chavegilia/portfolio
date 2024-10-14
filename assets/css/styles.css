@@ -1,36 +1,36 @@
-html, body{
-	font-size:16px;
+html, body {
+	font-size: 16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #EDDFE0;
 }
 
 a {
-  color: #00d1b2;
+	color: #00d1b2;
 }
 
 a:hover {
-  color: #00d1b2;
+	color: #00d1b2;
 }
 
-section{
+section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
 .section-1 {
-	background: #063647;
+	background-color: #EDDFE0; /* Light beige */
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #F5F5F7; /* Very light gray */
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #B7B7B7; /* Gray */
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #705C53; /* Brown */
 	padding: 0.2rem;
 }
 
@@ -42,19 +42,19 @@ a.nav-item:hover {
 	color: #fff;
 }
 
-.avatar{
-	height:200px;
+.avatar {
+	height: 200px;
 	border-radius: 50%;
 }
 
-.intro-description{
+.intro-description {
 	padding-top: 1rem;
 }
 
-.social-container img{
-	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
+.social-container img {
+	max-width: 100%;
+	max-height: 175px;
+	margin-bottom: 15px;
 }
 
 .project-figure {
@@ -85,12 +85,12 @@ a.nav-item:hover {
 }
 
 .void-background {
-	background-color: transparent; 
+	background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
 	.nav-menu {
-		background-color: #063647;
+		background-color: #EDDFE0;
 	}
 
 	.nav-toggle:hover {
@@ -104,5 +104,4 @@ a.nav-item:hover {
 	.nav-toggle span:hover {
 		background-color: #fff;
 	}
-
 }
